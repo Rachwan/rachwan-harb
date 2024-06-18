@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+Welcome to my portfolio website repository! This website serves as a showcase of my education, skills, projects, and experience as a web developer.
+
+Below, you'll find all the necessary information to understand and set up this project.
+
+## Features
+
+- **Home Page:** Provides an overview of my profile, my CV, social links, and stats.
+- **Resume Page:** Offers insights into my background, experience, education, skills and about me a web developer.
+- **Projects Page:** Showcases a selection of my top projects with descriptions and links to their respective repositories and/or live demos.
+- **Contact Page:** Enables visitors to reach out to me via email or through a contact form.
+
+## Technologies Used
+
+- **Frontend:** HTML5, CSS3, JavaScript (ES6+), Next.js, and Shadcn UI
+- **Styling:** CSS Modules, Tailwind CSS
+- **Deployment:** GitHub Pages, Vercel
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy of this project up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/Rachwan/rachwan-harb.git
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Install Dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Start the Development Server:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Open the Website:**
+   Open your browser and navigate to `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribution Guidelines
 
-## Deploy on Vercel
+If you have any suggestions, feature requests, or issues, feel free to open an issue or submit a pull request. Contributions are welcome and appreciated!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Thank you
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio website! If you have any questions or would like to connect, don't hesitate to reach out. Happy browsing!
