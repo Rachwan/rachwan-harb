@@ -14,8 +14,7 @@ const downloadFileAtURL = (url) => {
 };
 
 const DownloadButton = () => {
-  const FRONT_END_PDF_FILE_URL =
-    "http://localhost:3000/assets/CVs/Rachwan_Harb_Front-End_Developer.pdf";
+  const FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Developer.pdf`;
 
   const handleDownload = (event) => {
     event.preventDefault();
