@@ -81,7 +81,7 @@ const Contact = () => {
             <form
               ref={form}
               onSubmit={submitForm}
-              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+              className="flex flex-col gap-6 p-[20px] sm:p-10 bg-[#27272c] rounded-xl"
             >
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">

@@ -45,7 +45,7 @@ const MobileNav = () => {
       <SheetContent className="flex flex-col">
         {/* Logo */}
         <div className="mt-32 mb-12 sm:mb-40 text-center text-2xl">
-          <Link href={"/"}>
+          <Link href={"/"} onClick={closeMenu}>
             <h1 className="text-4xl font-semibold">
               Rachwan<span className="text-accent">.</span>
             </h1>

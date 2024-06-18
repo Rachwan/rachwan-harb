@@ -320,7 +320,9 @@ const Resume = () => {
                           className="flex items-center justify-center xl:justify-start gap-4"
                         >
                           <span className="text-white/60">{item.name}</span>
-                          <span className="text-xl">{item.value}</span>
+                          <span className="text-base sm:text-lg">
+                            {item.value}
+                          </span>
                         </li>
                       );
                     })}
