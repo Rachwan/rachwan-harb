@@ -37,7 +37,7 @@ const experience = {
   items: [
     {
       company: "Independent Contractor",
-      position: "Freelancer Full Stack Web Developer",
+      position: "Freelancer Full-Stack Web Developer",
       duration: "March 2024 - June 2024",
     },
     {
