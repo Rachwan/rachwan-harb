@@ -56,7 +56,7 @@ const experience = {
 const about = {
   title: "About me",
   description:
-    "Front-end developer with a strong background in the MERN stack, Next.js, and Agile methodologies. With a passion for crafting elegant digital experiences and a solid understanding of back-end development using Node.js, I am eager to bring my skills and dedication to innovative web projects.",
+    "Full-Stack  developer with a strong background in the MERN stack, Next.js, and Agile methodologies. With a passion for crafting elegant digital experiences and a solid understanding of back-end development using Node.js, I am eager to bring my skills and dedication to innovative web projects.",
   info: [
     {
       name: "Name:",
