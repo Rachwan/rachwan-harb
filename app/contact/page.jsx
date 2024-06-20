@@ -52,7 +52,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    document.title = "Contact - Rachwan Harb | Front-end Developer";
+    document.title = "Contact - Rachwan Harb | Full-Stack Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
@@ -87,8 +87,8 @@ const Contact = () => {
               <p className="text-white/60">
                 I am actively seeking job opportunities and ready to bring my
                 expertise to your team. If you're looking for a dedicated
-                front-end developer with a passion for crafting elegant digital
-                experiences, let's connect.
+                front-end, back-end or full-stack developer with a passion for
+                crafting elegant digital experiences, let's connect.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

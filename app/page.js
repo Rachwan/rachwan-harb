@@ -4,9 +4,9 @@ import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 
 export const metadata = {
-  title: "Home - Rachwan Harb | Front-end Developer",
+  title: "Home - Rachwan Harb | Full-Stack Developer",
   description:
-    "Welcome to the portfolio of Rachwan Harb, a Front-end Software Engineer specializing in creating dynamic and responsive web applications.",
+    "Welcome to the portfolio of Rachwan Harb, a Full-Stack Software Engineer specializing in creating dynamic and responsive web applications.",
 };
 
 const Home = () => {
