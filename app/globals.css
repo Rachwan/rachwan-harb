@@ -24,3 +24,13 @@
     -webkit-text-stroke: 1px #00ff99;
   }
 }
+
+div:where(.swal2-icon).swal2-question {
+  border-color: #00ff99 !important;
+  color: #1c1c22 !important;
+}
+
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+  background-color: #00ff99 !important;
+  color: white !important;
+}

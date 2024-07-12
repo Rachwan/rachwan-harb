@@ -10,6 +10,7 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Head from "next/head";
 import { useEffect } from "react";
+import Swal from "sweetalert2";
 
 const info = [
   {
@@ -46,6 +47,26 @@ const Contact = () => {
   const submitForm = (event) => {
     event.preventDefault();
 
+    // Sweet alert for validating
+
+    if (!formData.email || formData.email === "") {
+      Swal.fire({
+        title: "Your Email?",
+        text: "Please enter your email.",
+        icon: "question",
+      });
+      return;
+    }
+
+    if (!formData.message || formData.message === "") {
+      Swal.fire({
+        title: "Your Message?",
+        text: "Please enter your message.",
+        icon: "question",
+      });
+      return;
+    }
+
     // EmailJs
     const templateParams = {
       to_name: "Rachwan",
@@ -66,6 +87,13 @@ const Contact = () => {
       .then(
         (result) => {
           console.log("Message send");
+          setFormData({
+            firstname: "",
+            lastname: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
         },
         (error) => {
           console.log("Message Failed");
