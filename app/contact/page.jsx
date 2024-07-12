@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { FaPhoneAlt } from "react-icons/fa";
 import { SiMinutemailer } from "react-icons/si";
 import { HiLocationMarker } from "react-icons/hi";
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import Head from "next/head";
 import { useEffect } from "react";
@@ -30,15 +30,37 @@ const info = [
 ];
 
 const Contact = () => {
-  // EmailJs
-  const form = useRef();
+  const [formData, setFormData] = useState({
+    firstname: "",
+    lastname: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
 
-  const submitForm = () => {
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  const submitForm = (event) => {
+    event.preventDefault();
+
+    // EmailJs
+    const templateParams = {
+      to_name: "Rachwan",
+      first_name: formData.firstname,
+      last_name: formData.lastname,
+      phone: formData.phone,
+      email: formData.email,
+      message: formData.message,
+    };
+
     emailjs
-      .sendForm(
+      .send(
         "service_jzvgsv2",
         "template_c9ol4x8",
-        form.current,
+        templateParams,
         "DFvdVgDxCJ4JZPDxA"
       )
       .then(
@@ -79,7 +101,6 @@ const Contact = () => {
           {/* form */}
           <div className="xl:h-[54%] order-2 xl:order-none">
             <form
-              ref={form}
               onSubmit={submitForm}
               className="flex flex-col gap-6 p-[20px] sm:p-10 bg-[#27272c] rounded-xl"
             >
@@ -95,16 +116,39 @@ const Contact = () => {
                 <Input
                   type="firstname"
                   name="firstname"
-                  placeholder="Firstname"
+                  placeholder="First name"
+                  value={formData.firstname}
+                  onChange={handleInputChange}
                 />
-                <Input type="lastname" name="lastname" placeholder="Lastname" />
-                <Input type="email" name="email" placeholder="Email address" />
-                <Input type="phone" name="phone" placeholder="Phone number" />
+                <Input
+                  type="lastname"
+                  name="lastname"
+                  placeholder="Last name"
+                  value={formData.lastname}
+                  onChange={handleInputChange}
+                />
+                <Input
+                  type="email"
+                  name="email"
+                  placeholder="Email address"
+                  value={formData.email}
+                  onChange={handleInputChange}
+                />
+                <Input
+                  type="phone"
+                  name="phone"
+                  placeholder="Phone number"
+                  value={formData.phone}
+                  onChange={handleInputChange}
+                />
               </div>
               {/* TextArea */}
               <Textarea
                 className="h-[200px]"
+                name="message"
                 placeholder="Type your message here."
+                value={formData.message}
+                onChange={handleInputChange}
               />
               <Button size="md" className="max-w-40" onClick={submitForm}>
                 Send Message
