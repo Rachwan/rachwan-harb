@@ -94,9 +94,19 @@ const Contact = () => {
             phone: "",
             message: "",
           });
+          Swal.fire({
+            title: "Done",
+            text: "Message sent successfully!",
+            icon: "success",
+          });
         },
         (error) => {
           console.log("Message Failed");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong! Try again.",
+          });
         }
       );
   };
