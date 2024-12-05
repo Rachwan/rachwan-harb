@@ -28,6 +28,7 @@ import {
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const experience = {
   icon: "/assets/resume/badge.svg",
@@ -36,17 +37,22 @@ const experience = {
     "Developed a comprehensive skill set through hands-on web development projects, both in team settings and individual contributions.",
   items: [
     {
-      company: "Independent Contractor",
-      position: "Freelancer Full-Stack Web Developer",
-      duration: "March 2024 - June 2024",
+      company: "Edways • Internship (Remote)",
+      position: "Full-Stack Web Developer",
+      duration: "August 2024 - October 2024",
     },
     {
-      company: "Codi Tech",
+      company: "Independent Contractor • Freelance (Remote)",
+      position: "Full-Stack Web Developer",
+      duration: "March 2024 - Present",
+    },
+    {
+      company: "Codi Tech • Full Time (On-site)",
       position: "Full-Stack Web Developer",
       duration: "August 2023 - March 2024",
     },
     {
-      company: "Cisco Networking Academy",
+      company: "Cisco Networking Academy • Full Time (On-site)",
       position: "Technician",
       duration: "March 2023 - May 2023",
     },
@@ -56,7 +62,7 @@ const experience = {
 const about = {
   title: "About me",
   description:
-    "Full-Stack developer with a strong background in the MERN stack, Next.js, and Agile methodologies. With a passion for crafting elegant digital experiences and a solid understanding of back-end development using Node.js, I am eager to bring my skills and dedication to innovative web projects.",
+    "Front-end developer with a strong background in the MERN stack, Next.js, TypeScript, GraphQL, Redux, Material-UI, TailwindCSS, and Agile methodologies. With a passion for crafting elegant digital experiences and a solid understanding of back-end development using Node.js.",
   info: [
     {
       name: "Name:",
@@ -68,7 +74,7 @@ const about = {
     },
     {
       name: "Phone:",
-      value: "+961 76 445 648",
+      value: `${<Link href="https://wa.link/bk654p">+961 76 445 648</Link>}`,
     },
     {
       name: "Email:",
@@ -78,21 +84,21 @@ const about = {
       name: "Experience:",
       value: "1 Year",
     },
-    {
-      name: "Freelance:",
-      value: "Available",
-    },
+    // {
+    //   name: "Freelance:",
+    //   value: "Available",
+    // },
     {
       name: "LinkedIn:",
       value: "Rachwan Harb",
     },
     {
       name: "Languages:",
-      value: "English, French",
+      value: "English",
     },
     {
       name: "Location:",
-      value: "Beirut, Lebanon",
+      value: "Beirut",
     },
   ],
 };
@@ -105,12 +111,12 @@ const education = {
   items: [
     {
       institution: "Lebanese University Faculty of Science",
-      degree: "Computer Science",
-      duration: "September 2022 - June 2024",
+      degree: "Computer Science / Bachelor's Degree",
+      duration: "September 2022 - July 2024",
     },
     {
       institution: "Lebanese University Faculty of Engineering",
-      degree: "Course Work",
+      degree: "Computer Engineering / Coursework",
       duration: "September 2019 - June 2022",
     },
   ],
@@ -173,12 +179,12 @@ const skills = {
 };
 const Resume = () => {
   useEffect(() => {
-    document.title = "Resume - Rachwan Harb | Full-Stack Developer";
+    document.title = "Resume - Rachwan Harb | Front-End Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "View the resume of Rachwan Harb, including skills, education, about me, and experience in full-stack software engineering."
+        "View the resume of Rachwan Harb, including skills, education, about me, and experience in front-end software engineering."
       );
   }, []);
   return (
