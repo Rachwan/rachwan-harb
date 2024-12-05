@@ -37,14 +37,14 @@ const experience = {
     "Developed a comprehensive skill set through hands-on web development projects, both in team settings and individual contributions.",
   items: [
     {
-      company: "Edways • Internship (Remote)",
-      position: "Full-Stack Web Developer",
-      duration: "August 2024 - October 2024",
-    },
-    {
       company: "Independent Contractor • Freelance (Remote)",
       position: "Full-Stack Web Developer",
       duration: "March 2024 - Present",
+    },
+    {
+      company: "Edways • Internship (Remote)",
+      position: "Full-Stack Web Developer",
+      duration: "August 2024 - October 2024",
     },
     {
       company: "Codi Tech • Full Time (On-site)",
