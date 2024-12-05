@@ -112,7 +112,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    document.title = "Contact - Rachwan Harb | Full-Stack Developer";
+    document.title = "Contact - Rachwan Harb | Front-End Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(

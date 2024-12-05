@@ -38,12 +38,12 @@ const services = [
 
 const Services = () => {
   useEffect(() => {
-    document.title = "Services - Rachwan Harb | Full-Stack Developer";
+    document.title = "Services - Rachwan Harb | Front-End Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "Explore the services offered by Rachwan Harb, including full-stack Development, Back-End Integration, E-Commerce Solutions and Agile Methodologies."
+        "Explore the services offered by Rachwan Harb, including Front-End Development, Back-End Integration, E-Commerce Solutions and Agile Methodologies."
       );
   }, []);
 
