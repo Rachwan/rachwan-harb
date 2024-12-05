@@ -145,9 +145,7 @@ const Contact = () => {
               <h3 className="text-4xl text-accent">Let's work together</h3>
               <p className="text-white/60">
                 I am actively seeking job opportunities and ready to bring my
-                expertise to your team. If you're looking for a dedicated
-                front-end, back-end or full-stack developer with a passion for
-                crafting elegant digital experiences, let's connect.
+                expertise to your team. Let's connect to discuss how my expertise can benefit your projects.
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
