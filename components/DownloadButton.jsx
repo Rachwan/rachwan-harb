@@ -17,9 +17,11 @@ const DownloadButton = () => {
   const FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Developer.pdf`;
   const FULL_STACK_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Full-Stack_Developer.pdf`;
 
+  const UPDATED_FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Engineer.pdf`;
+
   const handleDownload = (event) => {
     event.preventDefault();
-    downloadFileAtURL(FULL_STACK_PDF_FILE_URL);
+    downloadFileAtURL(UPDATED_FRONT_END_PDF_FILE_URL);
   };
 
   return (
