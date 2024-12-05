@@ -62,7 +62,7 @@ const experience = {
 const about = {
   title: "About me",
   description:
-    "Front-end developer with a strong background in the MERN stack, Next.js, TypeScript, GraphQL, Redux, Material-UI, TailwindCSS, and Agile methodologies. With a passion for crafting elegant digital experiences and a solid understanding of back-end development using Node.js.",
+    "Front-end developer with a strong background in the MERN stack, Next.js, TypeScript, GraphQL, Redux, Material-UI, TailwindCSS, Agile methodologies, and with a solid understanding of back-end development using Node.js.",
   info: [
     {
       name: "Name:",
@@ -74,7 +74,7 @@ const about = {
     },
     {
       name: "Phone:",
-      value: `${<Link href="https://wa.link/bk654p">+961 76 445 648</Link>}`,
+      value: `+961 76 445 648`,
     },
     {
       name: "Email:",
