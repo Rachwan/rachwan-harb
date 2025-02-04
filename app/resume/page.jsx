@@ -62,7 +62,7 @@ const experience = {
 const about = {
   title: "About me",
   description:
-    "Front-end developer with a strong background in the MERN stack, Next.js, TypeScript, GraphQL, Redux, Material-UI, TailwindCSS, Agile methodologies, and with a solid understanding of back-end development using Node.js.",
+    `Full-stack web developer proficient in the MERN stack, Next.js, TypeScript, GraphQL, Redux, and modern CSS frameworks like Material-UI and Tailwind CSS. Experienced in Agile methodologies and back-end development with Node.js, I build robust and scalable web applications.`,
   info: [
     {
       name: "Name:",
@@ -74,11 +74,11 @@ const about = {
     },
     {
       name: "Phone:",
-      value: `+961 76 445 648`,
+      value: <a href="https://wa.me/96176445648" className="underline" target="_blank">+961 76 445 648</a>,
     },
     {
       name: "Email:",
-      value: "rachwan.harb2023@gmail.com",
+      value: <a href="mailto:rachwan.harb2023@gmail.com" className="underline">rachwan.harb2023@gmail.com</a>,
     },
     {
       name: "Experience:",
@@ -90,7 +90,7 @@ const about = {
     // },
     {
       name: "LinkedIn:",
-      value: "Rachwan Harb",
+      value: <a href="https://linkedin.com/in/rachwan-harb" className="underline" target="_blank">Rachwan Harb</a>,
     },
     {
       name: "Languages:",
@@ -98,7 +98,7 @@ const about = {
     },
     {
       name: "Location:",
-      value: "Beirut",
+      value: "Beirut, Lebanon",
     },
   ],
 };
@@ -179,12 +179,12 @@ const skills = {
 };
 const Resume = () => {
   useEffect(() => {
-    document.title = "Resume - Rachwan Harb | Front-End Developer";
+    document.title = "Resume - Rachwan Harb | Full-Stack Software Engineer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "View the resume of Rachwan Harb, including skills, education, about me, and experience in front-end software engineering."
+        "View the resume of Rachwan Harb, including skills, education, about me, and experience in full-stack software engineering."
       );
   }, []);
   return (
