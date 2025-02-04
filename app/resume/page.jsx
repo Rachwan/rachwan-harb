@@ -179,12 +179,12 @@ const skills = {
 };
 const Resume = () => {
   useEffect(() => {
-    document.title = "Resume - Rachwan Harb | Full-Stack Software Engineer";
+    document.title = "Resume - Rachwan Harb | Full-Stack Web Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "View the resume of Rachwan Harb, including skills, education, about me, and experience in full-stack software engineering."
+        "View the resume of Rachwan Harb, including skills, education, about me, and experience in full-stack web software engineering."
       );
   }, []);
   return (

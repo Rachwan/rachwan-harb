@@ -38,7 +38,7 @@ const services = [
 
 const Services = () => {
   useEffect(() => {
-    document.title = "Services - Rachwan Harb | Front-End Developer";
+    document.title = "Services - Rachwan Harb | Full-Stack Web Developer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(

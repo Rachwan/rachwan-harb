@@ -4,9 +4,9 @@ import Socials from "@/components/Socials";
 import Stats from "@/components/Stats";
 
 export const metadata = {
-  title: "Home - Rachwan Harb | Full-Stack Software Engineer",
+  title: "Home - Rachwan Harb | Full-Stack Web Developer",
   description:
-    "Welcome to the portfolio of Rachwan Harb, a Full-Stack Software Engineer specializing in creating dynamic and responsive web applications.",
+    "Welcome to the portfolio of Rachwan Harb, a Full-Stack Web Developer specializing in creating dynamic and responsive web applications.",
 };
 
 const Home = () => {
@@ -19,7 +19,7 @@ const Home = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between lg:pt-40 lg:pb-40 xl:pt-8 xl:pb-24">
           {/* text */}
           <div className="text-center lg:text-left order-2">
-            <span className="text-xl">Full-Stack Software Engineer</span>
+            <span className="text-xl">Full-Stack Web Developer</span>
             <h1 className="h1 mb-6">
               Hello, I'm <br />{" "}
               <span className="text-accent">Rachwan Harb</span>
