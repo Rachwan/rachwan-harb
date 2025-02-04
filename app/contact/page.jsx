@@ -16,12 +16,12 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    content: "+961 76 445 648",
+    content: <a href="https://wa.me/96176445648" target="_blank">+961 76 445 648</a>,
   },
   {
     icon: <SiMinutemailer />,
     title: "Email",
-    content: "rachwan.harb2023@gmail.com",
+    content: <a href="mailto:rachwan.harb2023@gmail.com">rachwan.harb2023@gmail.com</a>,
   },
   {
     icon: <HiLocationMarker />,
@@ -142,7 +142,7 @@ const Contact = () => {
               onSubmit={submitForm}
               className="flex flex-col gap-6 p-[20px] sm:p-10 bg-[#27272c] rounded-xl"
             >
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+              <h3 className="text-4xl text-accent">Let's work together!</h3>
               <p className="text-white/60">
                 I am actively seeking job opportunities and ready to bring my
                 expertise to your team. Let's connect to discuss how my expertise can benefit your projects.
