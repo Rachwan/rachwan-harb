@@ -15,7 +15,7 @@ const downloadFileAtURL = (url) => {
 
 const DownloadButton = () => {
   // const FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Developer.pdf`;
-  const FULL_STACK_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan Harb – Full-Stack Web Developer.pdf`;
+  const FULL_STACK_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Full-StackWebDeveloper.pdf`;
 
   const handleDownload = (event) => {
     event.preventDefault();
