@@ -69,12 +69,12 @@ const Projects = () => {
   };
 
   useEffect(() => {
-    document.title = "Projects - Rachwan Harb | Front-End Software Engineer";
+    document.title = "Projects - Rachwan Harb | Full-Stack Software Engineer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "Discover the projects developed by Rachwan Harb, showcasing skills in front-end development and innovative web solutions."
+        "Discover the projects developed by Rachwan Harb, showcasing skills in full-stack development and innovative web solutions."
       );
   }, []);
 

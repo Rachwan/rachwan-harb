@@ -62,7 +62,7 @@ const experience = {
 const about = {
   title: "About me",
   description:
-  "Front-end developer with a strong background in the MERN stack, including Next.js, TypeScript, GraphQL, Redux, and CSS frameworks like Material-UI and Tailwind CSS.  Experienced in Agile methodologies and possessing a solid understanding of Node.js back-end development.",
+  "Full-stack web developer skilled in the MERN stack, Next.js, TypeScript, GraphQL, Redux, and modern CSS frameworks like Material-UI and Tailwind CSS. Experienced in Agile methodologies and back-end development with Node.js, I build robust and scalable web applications",
   info: [
     {
       name: "Name:",
@@ -125,7 +125,7 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Proficient in modern web technologies, I continually update my expertise in front-end and back-end development.",
+    "Skilled in modern web technologies, I continually update my expertise in front-end and back-end development.",
   skillList: [
     {
       icon: <FaReact />,
@@ -179,12 +179,12 @@ const skills = {
 };
 const Resume = () => {
   useEffect(() => {
-    document.title = "Resume - Rachwan Harb | Front-End Software Engineer";
+    document.title = "Resume - Rachwan Harb | Full-Stack Software Engineer";
     document
       .querySelector('meta[name="description"]')
       ?.setAttribute(
         "content",
-        "View the resume of Rachwan Harb, including skills, education, about me, and experience in front-end web software engineering."
+        "View the resume of Rachwan Harb, including skills, education, about me, and experience in full-stack web software engineering."
       );
   }, []);
   return (

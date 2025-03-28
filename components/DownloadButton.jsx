@@ -14,12 +14,12 @@ const downloadFileAtURL = (url) => {
 };
 
 const DownloadButton = () => {
-  // const FULL_STACK_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Full-Stack_Developer.pdf`;
-  const FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Engineer.pdf`;
+  const FULL_STACK_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Full-Stack_Developer.pdf`;
+  // const FRONT_END_PDF_FILE_URL = `${process.env.NEXT_PUBLIC_WEBSITE_URL}/assets/CVs/Rachwan_Harb_Front-End_Engineer.pdf`;
 
   const handleDownload = (event) => {
     event.preventDefault();
-    downloadFileAtURL(FRONT_END_PDF_FILE_URL);
+    downloadFileAtURL(FULL_STACK_PDF_FILE_URL);
   };
 
   return (
